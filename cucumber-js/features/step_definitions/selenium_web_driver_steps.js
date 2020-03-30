@@ -1,4 +1,4 @@
-const { Given, When, Then, AfterAll } = require('cucumber');
+const { Given, When, Then, AfterAll, After, Status } = require('cucumber');
 const { Builder, By, Capabilities, Key } = require('selenium-webdriver');
 const { expect } = require('chai');
 
@@ -27,4 +27,15 @@ Then('the page title should start with {string}', { timeout: 60 * 1000 }, async 
 
 AfterAll('end', async function () {
   await driver.quit();
+});
+
+After(function (scenario) {
+  if (scenario.result.status === Status.FAILED) {
+    var world = this;
+    return driver.takeScreenshot().then(function (screenShot, error) {
+      if (!error) {
+        world.attach(screenShot, "image/png");
+      }
+    });
+  }
 });
