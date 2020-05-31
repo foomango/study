@@ -9,7 +9,12 @@ public class Demo {
         driver.get("http://google.com"); // Hit url on the browser
         System.out.println(driver.getTitle()); // validate if your Page title is correct
         System.out.println(driver.getCurrentUrl()); // validate if you are landed on correct url
-        System.out.println(driver.getPageSource());
+        //System.out.println(driver.getPageSource());
+
+        driver.get("http://yahoo.com");
+        driver.navigate().back();
+        driver.navigate().forward();
+
         driver.close();
     }
 }
