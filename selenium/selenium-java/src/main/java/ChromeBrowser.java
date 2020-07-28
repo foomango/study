@@ -8,5 +8,6 @@ public class ChromeBrowser {
         WebDriver driver = new ChromeDriver();
         driver.get("http://facebook.com");
         driver.findElement(By.id("email")).sendKeys("This is my first code");
+        driver.findElement(By.name("pass")).sendKeys("123456");
     }
 }
