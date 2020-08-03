@@ -43,14 +43,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae6c2bf4-db80-4e33-a936-b209dd34aa72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/selenium-java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-    </list>
+    <list default="true" id="ae6c2bf4-db80-4e33-a936-b209dd34aa72" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -194,10 +187,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="360" y="222" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596452097153">
+    <state x="360" y="222" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596452421796">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="360" y="222" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120/-46.-1080.1920.1080@0.0.1792.1120" timestamp="1596452097153" />
+    <state x="360" y="222" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120/-46.-1080.1920.1080@0.0.1792.1120" timestamp="1596452421796" />
     <state x="397" y="199" key="SettingsEditor" timestamp="1596452287303">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
