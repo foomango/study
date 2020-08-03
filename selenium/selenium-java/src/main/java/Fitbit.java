@@ -15,9 +15,6 @@ public class Fitbit {
     public static void main(String[] args) {
         String username = System.getenv("username");
         String password = System.getenv("password");
-        System.out.println(username);
-        System.out.println(password);
-        System.exit(0);
         // Create Driver object for chrome browser
         System.setProperty("webdriver.chrome.driver", "chromedriver");
         WebDriver driver = new ChromeDriver();
@@ -39,8 +36,8 @@ public class Fitbit {
         Calendar target = Calendar.getInstance();
         Calendar current = Calendar.getInstance();
 
-        target.set(2020, Calendar.JULY, 19);
-        //current.set(2020, Calendar.JULY, 29);
+        target.set(2020, Calendar.JULY, 29);
+        //current.set(2020, Calendar.AUGUST, 3);
 
         Random rand = new Random(8330);
 
